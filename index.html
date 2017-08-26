@@ -33,7 +33,7 @@
 
         const slideSection = document.createElement("section");
         slideSection.dataset.markdown = markdownUrl;
-        slideSection.dataset.separator = "\n---\n$";
+        slideSection.dataset.separator = "^\r?\n---\r?\n$";
         slideSection.dataset.separatorVertical = "\n--\n";
         slideSection.setAttribute("id", "slide");
         const slides = document.getElementById("slides");
